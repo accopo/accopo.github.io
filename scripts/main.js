@@ -1,14 +1,3 @@
-const myImage = document.querySelector("img");
-
-myImage.addEventListener("click", () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/冬有雪.jpg") {
-    myImage.setAttribute("src", 
-        "images/画板2.jpg");
-  } else {
-    myImage.setAttribute("src", "images/冬有雪.jpg");
-  }
-});
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
